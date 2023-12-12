@@ -6,18 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="/css/style.css"/>
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header class="header">
-    <h1>Lernantino</h1>
+  <header>
+    <h1 class="logo">Kaleim</h1>
     <nav>
-      <ul>
-        <li><a href="" class="nav-links">About Me</a></li>
-        <li><a href="" class="nav-links">Work</a></li>
-        <li><a href="" class="nav-links">Contact Me</a></li>
+      <ul class="menu-links">
+        <li><a href="#about" class="nav-links">About Me</a></li>
+        <li><a href="#work" class="nav-links">Work</a></li>
+        <li><a href="#contact" class="nav-links">Contact Me</a></li>
         <li><a href="" class="nav-links">Resume</a></li>
       </ul>
     </nav>
@@ -30,20 +30,42 @@
     </div>
   </section>
 
+  <div class="line-1"></div>
+
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <h2>About<br>Me</h2>
+      <p>I am an enthusiastic <b>Junior Front End Developer</b> Student with intermediate knowledge of HTML, CSS and Git. I plan to continue growing my knowledge with different frameworks with the goal of adding value to a potential employer and contribute with other Developers on successful projects. I enjoy the problem solving aspect of my role, as there are a multitude of solutions to find and research. </p>
     </section>
+
+    <div class="line-2"></div>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2>Work</h2>
+      <div class="main">
+        <div id="main-project">1</div>
+      </div>
+      <div class="projects">
+        <div id="project-1" class="work-grid"></div>
+        <div id="project-2" class="work-grid"></div>
+        <div id="project-3" class="work-grid"></div>
+        <div id="project-4" class="work-grid"></div>
+      </div>
     </section>
 
+    <div class="line-3"></div>
+
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="page-section" id="contact">
+      <h2>Contact<br>Me</h2>
+      <ul class="contact-me">
+        <li class="contact-links">07388870501</li>
+        <li><a href="#" class="contact-links">Twitter</a></li>
+        <li><a href="https://github.com/KaleimS" class="contact-links" target="_blank">Github</a></li>
+        <li><a href="https://stackoverflow.com/users/22960702/kaleim-saunders" class="contact-links">Stack Overflow</a></li>
+      </ul>
     </section>
   </main>
 </body>
